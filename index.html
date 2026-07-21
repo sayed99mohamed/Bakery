@@ -15,35 +15,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <body>
-    <div class="home">
+    <div id="home" class="home">
         <div class="layer">
-
             <div class="navbar">
-                <div class="logo"> <img src="pictures/bakery-light-1.png" alt=""></div>
+                <div class="logo">
+                    <img src="pictures/bakery-light-1.png" alt="">
+                </div>
 
-                <ul>
-                    <li>Home</li>
-                    <a href="#About"><li>About</li></a>
-                     <a href="#Location"><li>Location</li></a>
-                     <a href="#Baking"><li>Baking</li></a>
-                     <a href="#Contact"><li>Contact</li></a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Location">Location</a></li>
+                    <li><a href="#Baking">Baking</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
-                <div class="clr"></div>
+
             </div>
 
             <div class="home-content">
                 <p>Welcome to</p>
                 <h1>Family Bakery</h1>
-                <p>We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
-                <button class="btn1">Learn More</button>
-                <button class="btn2">contact us</button>
+                <p>We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles
+                    area.</p>
+               <a href="#About">
+                   <button class="btn1">Learn More</button>
+               </a> 
+               <a href="#Contact">
+                   <button class="btn2">contact us</button>
+               </a>
             </div>
 
-             <div class="scroll-margin">
+            <div class="scroll-margin">
+                <div class="scroll"></div>
+            </div>
+      </div>
 
-                 <div class="scroll"></div>
-             </div>
-        </div>
     </div>
 
     <!-- end of home -->
@@ -139,7 +151,8 @@
         <div class="Contact">
             <div class="Contact-Details">
                 <h4>Contact Information</h4>
-                <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 <h6>Our contact details:</h6>
                 <ul>
                     <li> <img src="pictures/dark.png" alt="">Manchester St 123-78B, Random 713, UK</li>
@@ -155,11 +168,13 @@
     <!-- End of Contact -->
 
     <!-- Start of Finish -->
-     <div class="lastPart">
+    <div class="lastPart">
         <img src="pictures/bakery-light-1.png" alt="">
-        <p>Copyright 2017. All rights reserved.</p>
-     </div>
-     <!-- End Of Finish -->
+        <p>Copyright 2017. All rights reserved. Sayed Mohamed .</p>
+    </div>
+    <!-- End Of Finish -->
+
+    <script src="main.js"></script>
 
 </body>
 
